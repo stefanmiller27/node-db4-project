@@ -1,6 +1,6 @@
 const router = require('express').Router()
 
-router.use('*', (req, res, next) => {//eslint-disable-line
+router.use('*', (req, res) => {
     res.json({api: 'up'})
 })
 
